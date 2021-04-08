@@ -1,5 +1,10 @@
 Require Import Reals.
 Require Import String.
+Require Import HOASCircuits.
+Require Import HOASExamples.
+Require Import DBCircuits.
+Require Import Arith.
+Require Import List.
 
 (* QASM.v - representation of QASM circuits *)
 
@@ -104,12 +109,6 @@ Open Scope qasm_scope.
 Notation pi := (e_pi).
 Close Scope qasm_scope.
 
-Require Import HOASCircuits.
-Require Import HOASExamples.
-Require Import DBCircuits.
-Require Import Arith.
-Require Import Reals.
-Require Import List.
 
 Open Scope R_scope.
 Import ListNotations.
